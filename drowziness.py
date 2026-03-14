@@ -22,7 +22,7 @@ pygame.mixer.music.load("AlarmTone.mp3")
 cap=cv2.VideoCapture(0)
 
 ret,frame=cap.read()
-import cv2
+
 
 # Create tracker from cv2.legacy
 tracker = cv2.legacy.TrackerCSRT_create()
