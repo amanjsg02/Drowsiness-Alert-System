@@ -1,5 +1,112 @@
-I have made a real time drowsiness detection system using openCv to connect with camera and used CSRT tracker to detect face.
-It uses dlib library to detect face and alert if face goes out of frame.
-If it detects face then using cnn model it checks for closed eyes or open eyes,if the person closes eyes for a particular number of frames,it alerts for closed eyes.
-Pygame library is used to add the buzzer sound.
-For efficient working of the system the distance of person from the camera must not be too far and a normal sitting distance should be maintained.
+# Driver Drowsiness Alert System
+
+A real-time computer vision system that detects driver fatigue using a Convolutional Neural Network (CNN) and facial landmark detection. The system monitors the driver's eye state through a webcam and triggers an alarm if drowsiness is detected.
+
+---
+
+## Project Overview
+
+Driver fatigue is one of the leading causes of road accidents. This project aims to reduce such incidents by detecting early signs of drowsiness in drivers.
+
+The system continuously monitors the driver's eyes using a webcam and uses a trained CNN model to classify whether the eyes are open or closed. If the eyes remain closed for a prolonged period, an alarm is triggered to alert the driver.
+
+---
+
+## Features
+
+* Real-time driver monitoring using webcam
+* Face detection using facial landmarks
+* Eye state classification using a CNN model
+* Alarm alert system when drowsiness is detected
+* Continuous tracking of driver attention
+
+---
+
+## Technologies Used
+
+* Python
+* OpenCV
+* TensorFlow / Keras
+* NumPy
+* dlib
+* pygame
+* imutils
+
+---
+
+## Installation
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/amanjsg02/Drowsiness-Alert-System.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd Drowsiness-Alert-System
+```
+
+### 3. Install Dependencies
+
+Install the required libraries using:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you do not have a requirements file, install manually:
+
+```bash
+pip install opencv-python numpy dlib tensorflow pygame imutils
+```
+
+---
+
+## Running the Project
+
+Run the main Python script:
+
+```bash
+python drowziness.py
+```
+
+### Steps
+
+1. The webcam will start automatically.
+2. The system detects the driver's face.
+3. The eye region is extracted and analyzed.
+4. The CNN model predicts whether the eyes are open or closed.
+5. If the eyes remain closed for multiple frames, an alarm is triggered.
+
+Press **q** to exit the program.
+
+---
+
+## Project Structure
+
+```
+Drowsiness-Alert-System
+│
+├── drowziness.py
+├── drowziness_model2.h5
+├── CnnEyeDetector.ipynb
+├── shape_predictor_68_face_landmarks.dat
+├── AlarmTone.mp3
+├── requirements.txt
+└── README.md
+```
+
+## Future Improvements
+
+* Improve model accuracy with larger datasets
+* Deploy the system on embedded devices such as Raspberry Pi
+* Integrate mobile notifications
+* Improve face tracking and eye detection algorithms
+---
+
+https://github.com/amanjsg02
+
