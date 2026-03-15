@@ -114,6 +114,12 @@ You can download the ready-to-run application from the release page:
 
 🔗 https://github.com/amanjsg02/Drowsiness-Alert-System/releases/tag/v1.0
 
+### Note
+
+* The provided **drowziness.exe** file is built for **Windows operating systems only**.
+* Users on **macOS or Linux** should run the project using the Python source code provided in this repository.
+* When running the executable for the first time, Windows Defender may show a warning because the file is not digitally signed. Click **"More info → Run anyway"** to proceed.
+
 ### Instructions to Run
 
 1. Download **drowziness.exe** from the release page.
