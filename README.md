@@ -108,5 +108,21 @@ Drowsiness-Alert-System
 * Improve face tracking and eye detection algorithms
 ---
 
+## Run the Executable Version
+
+You can download the ready-to-run application from the release page:
+
+🔗 https://github.com/amanjsg02/Drowsiness-Alert-System/releases/tag/v1.0
+
+### Instructions to Run
+
+1. Download **drowziness.exe** from the release page.
+2. Double-click the file to start the application.
+3. Allow webcam access if prompted.
+4. Maintain a proper sitting distance from the webcam for accurate detection.
+5. Select the **ROI (Region of Interest)** around the face and press **Enter**.
+6. Press **Q** to close the application.
+
+
 https://github.com/amanjsg02
 
