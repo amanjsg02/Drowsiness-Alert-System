@@ -36,7 +36,7 @@ The system continuously monitors the driver's eyes using a webcam and uses a tra
 
 ##  Demo Video
 
-[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/PDYhwPs5xXQ)
+[![Watch Demo](https://img.youtube.com/vi/PDYhwPs5xXQ/0.jpg)](https://youtu.be/PDYhwPs5xXQ)
 
 ## Installation
 
